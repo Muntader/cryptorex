@@ -1,0 +1,20 @@
+@import "var";
+@import 'layout/nav';
+@import 'components/home';
+@import 'components/news';
+
+.ar {
+  direction: rtl;
+    .navbar-end {
+      position: absolute;
+      left: 0;
+    }
+    .navbar .is-right {
+      left: 20px !important;
+
+    }
+}
+
+.ltr {
+  direction: ltr;
+}
